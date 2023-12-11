@@ -1,0 +1,73 @@
+body {
+    background-color: rgb(53, 53, 53);
+    margin: 0;
+  }
+  
+  .square {
+    float: left;
+    width: 30%;
+    height: 0;
+    padding-bottom: 30%;
+    background-color: burlywood;
+    margin: 5px;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  #colorDisplay{
+    display: block;
+    font-size: 200%;
+  }
+
+  h1 {
+    color: white;
+    text-align: center;
+    margin: 0px auto;
+    padding: 4%;
+    background-color: royalblue;
+    font-weight: normal;
+    font-size: 200%;
+  }
+  
+  #message{
+    color: black;
+    display: inline-block;
+    font-size: 120%;
+    width: 20%;
+  }
+
+  button{
+    border: none;
+    background-color: inherit;
+    text-transform: uppercase;
+    height:100%;
+    font-weight: 700;
+    color: black;
+    letter-spacing: 1px;
+    font-size: inherit;
+    outline: none;
+  }
+
+  button:hover{
+    color: white;
+    background-color: dodgerblue;
+  }
+  
+  #stripe{
+      background-color: grey;
+      height: 30px;
+      text-align: center;
+  }
+  
+  .selected{
+    background-color: dodgerblue;
+    color: white;
+  }
+
+  .mal{
+    opacity: 0;
+    transition: all 0.5s;
+  }
